@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: Self-Hosted-ubuntu-Agent
+  vmImage: Default
 
 steps:
 - task: AzureResourceManagerTemplateDeployment@3
